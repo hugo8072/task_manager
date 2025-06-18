@@ -9,7 +9,7 @@ def list_users():
     for idx, username in enumerate(users.keys(), 1):
         print(f"{idx}. {username}")
 
-def list_tasks_admin(username, show_all=True):
+def list_tasks_user(username):
     """
     List all tasks for a specific user (admin view).
     """
@@ -29,12 +29,16 @@ def list_all_tasks():
     """
     users = load_users()
     for username in users:
-        list_tasks_admin(username, show_all=True)
+        list_tasks_user(username)
 
 def admin_menu():
     """
     Admin menu: view tasks by user or all users.
     """
+
+    users = load_users()
+
+
     while True:
         print("\n--- Admin Task View Menu ---")
         print("1. List all users")
@@ -46,7 +50,10 @@ def admin_menu():
             list_users()
         elif choice == "2":
             username = input("Enter username: ").strip()
-            list_tasks_admin(username)
+            if username in users:
+                list_tasks_user(username)
+            else:
+                print("User not found.")
         elif choice == "3":
             list_all_tasks()
         elif choice == "0":
