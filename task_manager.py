@@ -4,6 +4,9 @@ from saves import save_tasks
 def add_task(username):
     """
     Add a new task for the given user.
+
+    Args:
+        username (str): The username to add the task for.
     """
     print("\n--- Add New Task ---")
     title = input("Title: ").strip()
@@ -27,6 +30,10 @@ def add_task(username):
 def list_tasks(username, show_all=False):
     """
     List all tasks for the user. If show_all is False, only pending tasks are shown.
+
+    Args:
+        username (str): The username whose tasks to list.
+        show_all (bool): Whether to show all tasks or only pending ones.
     """
     print("\n--- Task List ---")
     tasks = load_tasks(username)
@@ -42,6 +49,9 @@ def list_tasks(username, show_all=False):
 def edit_task(username):
     """
     Edit an existing task for the user.
+
+    Args:
+        username (str): The username whose task to edit.
     """
     tasks = load_tasks(username)
     list_tasks(username, show_all=True)
@@ -68,6 +78,9 @@ def edit_task(username):
 def remove_task(username):
     """
     Remove a task for the user.
+
+    Args:
+        username (str): The username whose task to remove.
     """
     tasks = load_tasks(username)
     list_tasks(username, show_all=True)
@@ -82,6 +95,9 @@ def remove_task(username):
 def mark_task_done(username):
     """
     Mark a task as completed for the user.
+
+    Args:
+        username (str): The username whose task to mark as completed.
     """
     tasks = load_tasks(username)
     list_tasks(username)
@@ -96,6 +112,9 @@ def mark_task_done(username):
 def task_menu(username):
     """
     Main menu for task management for the given user.
+
+    Args:
+        username (str): The username for whom to manage tasks.
     """
     while True:
         print("\n--- Task Management Menu ---")

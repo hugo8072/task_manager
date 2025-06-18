@@ -2,6 +2,7 @@ import hashlib
 from datetime import datetime, timedelta
 from saves import save_attempts
 from task_manager import task_menu
+from task_manager_admin import admin_menu
 
 MAX_ATTEMPTS = 5
 BLOCK_MINUTES = 30
@@ -44,12 +45,15 @@ def login(users, attempts):
         password = input("Password: ").strip()
         hashed_password = hashlib.sha256(password.encode()).hexdigest()
 
-        if users[username] == hashed_password:
+        if users[username]["password"] == hashed_password:
             print(f"\nWelcome, {username}!\n")
             user_attempt = {"attempts": 0, "blocked_until": None}
             attempts[username] = user_attempt
             save_attempts(attempts)
-            task_menu(username)
+            if users[username].get("admin", False):
+                admin_menu()
+            else:
+                task_menu(username)
             return
         else:
             user_attempt["attempts"] = user_attempt.get("attempts", 0) + 1

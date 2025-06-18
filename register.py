@@ -1,15 +1,17 @@
 import hashlib
 from saves import save_users
 
-def register(users):
+def register(users, admin=False):
     """
     Handle the user registration process, including username and password validation.
-    This function checks if the username already exists and prompts for a new one if it does.
-    It hashes the password using SHA-256 before saving it to the users dictionary.
-    It saves the updated users dictionary to the users JSON file.
+    Allows creation of admin users if admin=True.
+
+    Args:
+        users (dict): Dictionary with usernames as keys and user info as values.
+        admin (bool): If True, creates an admin user. Defaults to False.
     """
     print("=" * 40)
-    print("           Register Page")
+    print("           Register Page" + (" (Admin)" if admin else ""))
     print("=" * 40)
     while True:
         username = input("Choose a username: ").strip()
@@ -20,7 +22,10 @@ def register(users):
         else:
             break
     password = input("Choose a password: ").strip()
-    users[username] = hashlib.sha256(password.encode()).hexdigest()
+    users[username] = {
+        "password": hashlib.sha256(password.encode()).hexdigest(),
+        "admin": admin
+    }
     save_users(users)
-    print(f"\nUser '{username}' registered successfully!\n")
-    input("Press Enter to return to the main menu...")    
+    print(f"\nUser '{username}' registered successfully!" + (" (Admin)" if admin else "") + "\n")
+    input("Press Enter to return to the main menu...")

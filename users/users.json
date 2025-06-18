@@ -1,5 +1,21 @@
 {
     "hugo": "5ef68465886fa04d3e0bbe86b59d964dd98e5775e95717df978d8bedee6ff16c",
     "Augusto": "b61496de1dee0127320f6000793d0a354fb9f4b4b33ff09c3fd12433eff4d8ef",
-    "augusto": "b61496de1dee0127320f6000793d0a354fb9f4b4b33ff09c3fd12433eff4d8ef"
+    "augusto": "b61496de1dee0127320f6000793d0a354fb9f4b4b33ff09c3fd12433eff4d8ef",
+    "noadm": {
+        "password": "ca7b3449f8edfd6ff4cb35d42989ea5958871df858c82aeb437ebeac829c50e4",
+        "admin": false
+    },
+    "admin1": {
+        "password": "b61496de1dee0127320f6000793d0a354fb9f4b4b33ff09c3fd12433eff4d8ef",
+        "admin": true
+    },
+    "admin": {
+        "password": "b61496de1dee0127320f6000793d0a354fb9f4b4b33ff09c3fd12433eff4d8ef",
+        "admin": true
+    },
+    "admincesae": {
+        "password": "b61496de1dee0127320f6000793d0a354fb9f4b4b33ff09c3fd12433eff4d8ef",
+        "admin": true
+    }
 }
