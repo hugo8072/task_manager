@@ -9,7 +9,7 @@ def list_users():
     for idx, username in enumerate(users.keys(), 1):
         print(f"{idx}. {username}")
 
-def list_tasks_admin(username, show_all=True):
+def list_tasks_admin(username):
     """
     List all tasks for a specific user (admin view).
     """
@@ -29,7 +29,7 @@ def list_all_tasks():
     """
     users = load_users()
     for username in users:
-        list_tasks_admin(username, show_all=True)
+        list_tasks_admin(username)
 
 def admin_menu():
     """
