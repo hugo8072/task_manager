@@ -18,5 +18,9 @@
     "admin": {
         "attempts": 0,
         "blocked_until": null
+    },
+    "agua": {
+        "attempts": 0,
+        "blocked_until": null
     }
 }

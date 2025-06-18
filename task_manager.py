@@ -1,5 +1,6 @@
 from loads import load_tasks
 from saves import save_tasks
+from statistics import statistics_menu # type: ignore
 
 def add_task(username):
     """
@@ -124,6 +125,7 @@ def task_menu(username):
         print("4. List pending tasks")
         print("5. Mark task as completed")
         print("6. List all tasks")
+        print("7. Estatísticas")
         print("0. Logout")
         choice = input("Choose an option: ").strip()
         if choice == "1":
@@ -138,6 +140,8 @@ def task_menu(username):
             mark_task_done(username)
         elif choice == "6":
             list_tasks(username, show_all=True)
+        elif choice == "7":
+            statistics_menu()
         elif choice == "0":
             print("Logging out...")
             break
