@@ -136,21 +136,53 @@ task_manager/
 - **Graceful degradation** on failures
 - **Input validation** and sanitization
 
-## 📄 License
+## 🎯 Advanced Features
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+### Search & Filter System
+```python
+# Search by priority
+🔴 High Priority Tasks    # Priority 1
+🟡 Medium Priority Tasks  # Priority 2  
+🟢 Low Priority Tasks     # Priority 3
 
-## � Acknowledgments
+# Filter by date range
+📅 Tasks between 2025-01-01 and 2025-01-31
 
-- Built with ❤️ using Python
-- Inspired by modern task management principles
+# Category filtering
+📚 Work | 🏠 Home | 💼 Personal | 🎯 Projects
+```
+
+### Statistics Dashboard
+```
+📊 Global Statistics
+├── 👥 Total Users: 15
+├── 📋 Total Tasks: 847
+├── ✅ Completed: 623 (73.6%)
+├── ⏳ Pending: 187 (22.1%)
+└── ⚠️ Overdue: 37 (4.4%)
+```
+
+
+
+### Development Setup
+```bash
+# Clone and setup
+git clone https://github.com/yourusername/task_manager.git
+cd task_manager
+
+# Create development branch
+git checkout -b feature/your-feature-name
+
+# Make your changes and test
+python3 initial_menu.py
+
+# Commit and push
+git add .
+git commit -m "Add: your feature description"
+git push origin feature/your-feature-name
+```
+
+
+
 
 ---
-
-<div align="center">
-
-**⭐ If you find this project helpful, please give it a star!**
-
-Made with 💻 and ☕ 
-
-</div>--
