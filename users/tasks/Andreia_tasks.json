@@ -1,0 +1,114 @@
+[
+    {
+        "title": "Apresentação de vendas",
+        "description": "Preparar apresentação para clientes corporativos",
+        "priority": "1",
+        "deadline": "2025-01-14",
+        "category": "Trabalho",
+        "completed": false
+    },
+    {
+        "title": "Treino de crossfit",
+        "description": "Treinar 4x por semana para competição",
+        "priority": "2",
+        "deadline": "2025-03-15",
+        "category": "Desporto",
+        "completed": false
+    },
+    {
+        "title": "Workshop de liderança",
+        "description": "Participar no workshop de desenvolvimento de liderança",
+        "priority": "1",
+        "deadline": "2025-02-05",
+        "category": "Carreira",
+        "completed": true
+    },
+    {
+        "title": "Renovar passaporte",
+        "description": "Renovar passaporte para viagem de negócios",
+        "priority": "2",
+        "deadline": "2025-02-20",
+        "category": "Documentos",
+        "completed": false
+    },
+    {
+        "title": "Jantar com equipa",
+        "description": "Organizar jantar de team building",
+        "priority": "3",
+        "deadline": "2025-01-30",
+        "category": "Trabalho",
+        "completed": false
+    },
+    {
+        "title": "Curso de fotografia",
+        "description": "Inscrever no curso de fotografia digital",
+        "priority": "3",
+        "deadline": "2025-02-15",
+        "category": "Hobbies",
+        "completed": false
+    },
+    {
+        "title": "Projeto de marketing",
+        "description": "Finalizar campanha de marketing digital",
+        "priority": "1",
+        "deadline": "2025-01-25",
+        "category": "Trabalho",
+        "completed": true
+    },
+    {
+        "title": "Viagem a Paris",
+        "description": "Planear e reservar viagem de fim de semana",
+        "priority": "2",
+        "deadline": "2025-03-01",
+        "category": "Viagens",
+        "completed": false
+    },
+    {
+        "title": "Networking event",
+        "description": "Participar no evento de networking da área",
+        "priority": "2",
+        "deadline": "2025-01-28",
+        "category": "Carreira",
+        "completed": false
+    },
+    {
+        "title": "Check-up médico",
+        "description": "Fazer check-up anual completo",
+        "priority": "1",
+        "deadline": "2025-02-10",
+        "category": "Saúde",
+        "completed": false
+    },
+    {
+        "title": "Decorar apartamento",
+        "description": "Redecorar sala de estar com estilo moderno",
+        "priority": "3",
+        "deadline": "2025-04-01",
+        "category": "Casa",
+        "completed": false
+    },
+    {
+        "title": "Relatório trimestral",
+        "description": "Completar relatório de performance Q4",
+        "priority": "1",
+        "deadline": "2025-01-10",
+        "category": "Trabalho",
+        "completed": true
+    },
+    {
+        "title": "Aulas de yoga",
+        "description": "Iniciar aulas de yoga para relaxamento",
+        "priority": "2",
+        "deadline": "2025-01-20",
+        "category": "Saúde",
+        "completed": false
+    },
+    {
+        "title": "Investimentos",
+        "description": "Rever e ajustar carteira de investimentos",
+        "priority": "2",
+        "deadline": "2025-01-31",
+        "category": "Financeiro",
+        "completed": false
+    }
+]

@@ -1,0 +1,90 @@
+[
+    {
+        "title": "Finalizar relat\u00f3rio mensal",
+        "description": "Completar o relat\u00f3rio de vendas do m\u00eas de dezembro",
+        "priority": "1",
+        "deadline": "2025-01-15",
+        "category": "Trabalho",
+        "completed": true
+    },
+    {
+        "title": "Comprar presentes de Natal",
+        "description": "Comprar presentes para a fam\u00edlia",
+        "priority": "2",
+        "deadline": "2024-12-20",
+        "category": "Pessoal",
+        "completed": true
+    },
+    {
+        "title": "Consulta m\u00e9dica",
+        "description": "Consulta de rotina com o m\u00e9dico de fam\u00edlia",
+        "priority": "1",
+        "deadline": "2025-01-10",
+        "category": "Sa\u00fade",
+        "completed": false
+    },
+    {
+        "title": "Renovar seguro do carro",
+        "description": "Renovar o seguro autom\u00f3vel antes do vencimento",
+        "priority": "2",
+        "deadline": "2025-02-01",
+        "category": "Financeiro",
+        "completed": false
+    },
+    {
+        "title": "Organizar escrit\u00f3rio",
+        "description": "Reorganizar e limpar o escrit\u00f3rio em casa",
+        "priority": "3",
+        "deadline": "2025-01-20",
+        "category": "Casa",
+        "completed": false
+    },
+    {
+        "title": "Curso de ingl\u00eas",
+        "description": "Inscrever-me no curso de ingl\u00eas avan\u00e7ado",
+        "priority": "2",
+        "deadline": "2025-01-30",
+        "category": "Educa\u00e7\u00e3o",
+        "completed": true
+    },
+    {
+        "title": "Exerc\u00edcio f\u00edsico",
+        "description": "Ir ao gin\u00e1sio 3 vezes por semana",
+        "priority": "2",
+        "deadline": "2025-12-31",
+        "category": "Sa\u00fade",
+        "completed": false
+    },
+    {
+        "title": "Reuni\u00e3o com cliente",
+        "description": "Apresentar proposta ao cliente ABC",
+        "priority": "1",
+        "deadline": "2025-01-08",
+        "category": "Trabalho",
+        "completed": true
+    },
+    {
+        "title": "Jantar de anivers\u00e1rio",
+        "description": "Organizar jantar para o anivers\u00e1rio da Maria",
+        "priority": "3",
+        "deadline": "2025-01-25",
+        "category": "Pessoal",
+        "completed": false
+    },
+    {
+        "title": "Backup dos dados",
+        "description": "Fazer backup completo dos ficheiros importantes",
+        "priority": "2",
+        "deadline": "2025-01-12",
+        "category": "Tecnologia",
+        "completed": false
+    },
+    {
+        "title": "sadds",
+        "description": "adsdsa",
+        "priority": "2",
+        "deadline": "1993-06-22",
+        "category": "sdads",
+        "completed": false
+    }
+]

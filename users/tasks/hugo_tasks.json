@@ -1,0 +1,98 @@
+[
+    {
+        "title": "Desenvolver aplicação web",
+        "description": "Criar sistema de gestão de tarefas em Python",
+        "priority": "1",
+        "deadline": "2025-02-15",
+        "category": "Programação",
+        "completed": false
+    },
+    {
+        "title": "Estudar para certificação AWS",
+        "description": "Preparar exame de certificação AWS Solutions Architect",
+        "priority": "1",
+        "deadline": "2025-03-01",
+        "category": "Educação",
+        "completed": false
+    },
+    {
+        "title": "Atualizar CV",
+        "description": "Atualizar currículo com novos projetos",
+        "priority": "2",
+        "deadline": "2025-01-20",
+        "category": "Carreira",
+        "completed": true
+    },
+    {
+        "title": "Setup do servidor",
+        "description": "Configurar servidor para deploy da aplicação",
+        "priority": "1",
+        "deadline": "2025-01-18",
+        "category": "Tecnologia",
+        "completed": false
+    },
+    {
+        "title": "Code review",
+        "description": "Revisar código do projeto da equipa",
+        "priority": "2",
+        "deadline": "2025-01-09",
+        "category": "Trabalho",
+        "completed": true
+    },
+    {
+        "title": "Documentação da API",
+        "description": "Escrever documentação completa da API REST",
+        "priority": "2",
+        "deadline": "2025-01-25",
+        "category": "Trabalho",
+        "completed": false
+    },
+    {
+        "title": "Comprar SSD novo",
+        "description": "Comprar SSD de 1TB para melhorar performance",
+        "priority": "3",
+        "deadline": "2025-02-01",
+        "category": "Tecnologia",
+        "completed": false
+    },
+    {
+        "title": "Meetup de programadores",
+        "description": "Participar no meetup de Python em Lisboa",
+        "priority": "3",
+        "deadline": "2025-01-22",
+        "category": "Networking",
+        "completed": false
+    },
+    {
+        "title": "Backup do GitHub",
+        "description": "Fazer backup local de todos os repositórios",
+        "priority": "2",
+        "deadline": "2025-01-15",
+        "category": "Tecnologia",
+        "completed": true
+    },
+    {
+        "title": "Aprender Docker",
+        "description": "Curso completo de Docker e containerização",
+        "priority": "2",
+        "deadline": "2025-02-28",
+        "category": "Educação",
+        "completed": false
+    },
+    {
+        "title": "Refactoring do código",
+        "description": "Melhorar estrutura do código legado",
+        "priority": "3",
+        "deadline": "2025-02-10",
+        "category": "Trabalho",
+        "completed": false
+    },
+    {
+        "title": "Configurar monitorização",
+        "description": "Implementar logs e métricas na aplicação",
+        "priority": "1",
+        "deadline": "2025-01-30",
+        "category": "Tecnologia",
+        "completed": false
+    }
+]

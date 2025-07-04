@@ -1,0 +1,18 @@
+[
+    {
+        "title": "Auditoria de segurança",
+        "description": "Realizar auditoria completa dos sistemas",
+        "priority": "1",
+        "deadline": "2025-01-31",
+        "category": "Segurança",
+        "completed": false
+    },
+    {
+        "title": "Reunião de administração",
+        "description": "Reunião mensal com board de administração",
+        "priority": "1",
+        "deadline": "2025-01-15",
+        "category": "Administração",
+        "completed": true
+    }
+]

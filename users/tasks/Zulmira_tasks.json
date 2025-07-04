@@ -1,0 +1,106 @@
+[
+    {
+        "title": "Bordar toalhas de mesa",
+        "description": "Terminar o bordado das toalhas para o enxoval",
+        "priority": "2",
+        "deadline": "2025-02-14",
+        "category": "Artesanato",
+        "completed": false
+    },
+    {
+        "title": "Receita de bolo de chocolate",
+        "description": "Experimentar nova receita para o aniversário do neto",
+        "priority": "3",
+        "deadline": "2025-01-15",
+        "category": "Culinária",
+        "completed": true
+    },
+    {
+        "title": "Tricot para o inverno",
+        "description": "Fazer camisolas de lã para toda a família",
+        "priority": "2",
+        "deadline": "2025-11-30",
+        "category": "Artesanato",
+        "completed": false
+    },
+    {
+        "title": "Grupo de oração",
+        "description": "Organizar encontro mensal do grupo de oração",
+        "priority": "1",
+        "deadline": "2025-01-18",
+        "category": "Religioso",
+        "completed": false
+    },
+    {
+        "title": "Conservas de tomate",
+        "description": "Preparar conservas de tomate para o ano",
+        "priority": "2",
+        "deadline": "2025-08-31",
+        "category": "Culinária",
+        "completed": false
+    },
+    {
+        "title": "Limpeza da primavera",
+        "description": "Limpeza geral da casa para a chegada da primavera",
+        "priority": "2",
+        "deadline": "2025-03-20",
+        "category": "Casa",
+        "completed": false
+    },
+    {
+        "title": "Visita ao médico",
+        "description": "Consulta de rotina e análises",
+        "priority": "1",
+        "deadline": "2025-01-22",
+        "category": "Saúde",
+        "completed": true
+    },
+    {
+        "title": "Feira de artesanato",
+        "description": "Participar na feira de artesanato da freguesia",
+        "priority": "3",
+        "deadline": "2025-02-10",
+        "category": "Artesanato",
+        "completed": false
+    },
+    {
+        "title": "Novena da Senhora",
+        "description": "Participar na novena de Nossa Senhora de Fátima",
+        "priority": "1",
+        "deadline": "2025-05-13",
+        "category": "Religioso",
+        "completed": false
+    },
+    {
+        "title": "Curso de culinária",
+        "description": "Inscrever no curso de doçaria tradicional",
+        "priority": "3",
+        "deadline": "2025-02-01",
+        "category": "Educação",
+        "completed": false
+    },
+    {
+        "title": "Arranjar roupas",
+        "description": "Costurar e arranjar roupas da família",
+        "priority": "2",
+        "deadline": "2025-01-30",
+        "category": "Casa",
+        "completed": true
+    },
+    {
+        "title": "Chá com as amigas",
+        "description": "Organizar chá da tarde com o grupo de amigas",
+        "priority": "3",
+        "deadline": "2025-01-26",
+        "category": "Social",
+        "completed": false
+    },
+    {
+        "title": "Jardim de ervas",
+        "description": "Plantar ervas aromáticas na varanda",
+        "priority": "2",
+        "deadline": "2025-03-01",
+        "category": "Jardinagem",
+        "completed": false
+    }
+]

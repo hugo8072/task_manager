@@ -1,0 +1,90 @@
+[
+    {
+        "title": "Pintar a casa",
+        "description": "Pintar as paredes da sala e dos quartos",
+        "priority": "2",
+        "deadline": "2025-02-20",
+        "category": "Casa",
+        "completed": false
+    },
+    {
+        "title": "Reparar torneira",
+        "description": "Chamar canalizador para reparar torneira da cozinha",
+        "priority": "1",
+        "deadline": "2025-01-12",
+        "category": "Casa",
+        "completed": true
+    },
+    {
+        "title": "Plantar horta",
+        "description": "Preparar terreno e plantar vegetais na horta",
+        "priority": "3",
+        "deadline": "2025-03-15",
+        "category": "Jardinagem",
+        "completed": false
+    },
+    {
+        "title": "Comprar ferramentas",
+        "description": "Comprar berbequim e chaves de fendas",
+        "priority": "2",
+        "deadline": "2025-01-25",
+        "category": "Casa",
+        "completed": false
+    },
+    {
+        "title": "Aposentadoria",
+        "description": "Organizar documentos para aposentadoria",
+        "priority": "1",
+        "deadline": "2025-06-30",
+        "category": "Financeiro",
+        "completed": false
+    },
+    {
+        "title": "Visitar netos",
+        "description": "Visitar os netos no Porto",
+        "priority": "2",
+        "deadline": "2025-01-28",
+        "category": "Família",
+        "completed": true
+    },
+    {
+        "title": "Consulta cardiologista",
+        "description": "Consulta de rotina com especialista",
+        "priority": "1",
+        "deadline": "2025-01-16",
+        "category": "Saúde",
+        "completed": false
+    },
+    {
+        "title": "Renovar biblioteca",
+        "description": "Organizar e catalogar todos os livros",
+        "priority": "3",
+        "deadline": "2025-02-15",
+        "category": "Hobbies",
+        "completed": false
+    },
+    {
+        "title": "Curso de informática",
+        "description": "Inscrever no curso de informática para seniores",
+        "priority": "2",
+        "deadline": "2025-02-01",
+        "category": "Educação",
+        "completed": true
+    },
+    {
+        "title": "Seguro de saúde",
+        "description": "Renovar seguro de saúde antes do vencimento",
+        "priority": "1",
+        "deadline": "2025-01-31",
+        "category": "Financeiro",
+        "completed": false
+    },
+    {
+        "title": "Clube de xadrez",
+        "description": "Participar no torneio mensal do clube",
+        "priority": "3",
+        "deadline": "2025-01-20",
+        "category": "Hobbies",
+        "completed": false
+    }
+]

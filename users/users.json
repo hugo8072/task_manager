@@ -1,0 +1,20 @@
+{
+    "augusto": {
+        "admin": false
+    },
+    "hugo": {
+        "admin": false
+    },
+    "zacarias": {
+        "admin": false
+    },
+    "Zulmira": {
+        "admin": false
+    },
+    "Andreia": {
+        "admin": false
+    },
+    "aws_admin": {
+        "admin": true
+    }
+}
